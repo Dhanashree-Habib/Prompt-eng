@@ -1,11 +1,11 @@
-Input Query	Expected Output	Testing Intent
-Where is my shipment right now?	Delivery	Standard tracking status query
-It says delivered on the app, but I haven't received anything.	Delivery	Missing delivered package
-Why is my tracking number not updating on the carrier site?	Shipping	Carrier / Transit delay query
-How many days does it usually take for my money to reflect back in my bank?	Refund	Processing time for money back
-I was charged twice for order #4092.	Payment	Double billing issue
-Please stop my order before it leaves the warehouse.	Cancellation	Pre-dispatch cancellation request
-The screen on the laptop I received is completely shattered.	Defect	Physically damaged item
-How do I generate a prepaid shipping label to send this back?	Return	Return process & label generation
-I forgot my password and I am locked out of my profile.	Account	Authentication / Login issue
-Can you tell me a good recipe for baking chocolate chip cookies?	Unknown	Off-topic / Irrelevant query
+"Input Query","Expected Output","Testing Intent"
+"Where is my shipment right now?","Delivery","Standard tracking status query"
+"It says delivered on the app, but I haven't received anything.","Delivery","Missing delivered package"
+"Why is my tracking number not updating on the carrier site?","Shipping","Carrier / Transit delay query"
+"How many days does it usually take for my money to reflect back in my bank?","Refund","Processing time for money back"
+"I was charged twice for order #4092.","Payment","Double billing issue"
+"Please stop my order before it leaves the warehouse.","Cancellation","Pre-dispatch cancellation request"
+"The screen on the laptop I received is completely shattered.","Defect","Physically damaged item"
+"How do I generate a prepaid shipping label to send this back?","Return","Return process & label generation"
+"I forgot my password and I am locked out of my profile.","Account","Authentication / Login issue"
+"Can you tell me a good recipe for baking chocolate chip cookies?","Unknown","Off-topic / Irrelevant query"

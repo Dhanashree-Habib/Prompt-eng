@@ -1,0 +1,5 @@
+Test_Case_ID,Module_Name,Test_Scenario,Input_Data,Expected_Result,Status
+TC001,Flight Search,Search with valid details,"Origin: ""Bengaluru"", Dest: ""Singapore"", Date: ""2026-12-01""",Display available flights list,Pass
+TC002,Flight Search,Search with missing origin city,"Origin: """", Dest: ""Singapore"", Date: ""2026-12-01""","Error: ""Departure City is required""",Pass
+TC003,Passenger Info,Passenger name containing numbers,"Name: ""Dhanashree123"", Age: 24","Error: ""Invalid characters in name""",Pass
+TC004,Payment,Successful booking payment,"PaymentType: ""Credit Card"", Amount: 15000",Booking reference code generated,Pass

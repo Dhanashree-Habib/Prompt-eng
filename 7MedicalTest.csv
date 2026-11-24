@@ -1,0 +1,21 @@
+Test_Case,Patient_Input,Expected_Output
+TC01,"Severe chest pain with difficulty breathing",EMERGENCY
+TC02,"Sudden facial drooping and difficulty speaking",EMERGENCY
+TC03,"Heavy bleeding that will not stop",EMERGENCY
+TC04,"Patient suddenly loses consciousness",EMERGENCY
+TC05,"Sudden severe headache with vision problems",EMERGENCY
+TC06,"Severe breathing difficulty",EMERGENCY
+TC07,"High fever accompanied by persistent vomiting",URGENT
+TC08,"Rapidly worsening abdominal pain",URGENT
+TC09,"Persistent vomiting with signs of dehydration",URGENT
+TC10,"High fever that is not improving",URGENT
+TC11,"Painful skin infection that is getting worse",URGENT
+TC12,"Mild nasal congestion",ROUTINE
+TC13,"Occasional sneezing without other symptoms",ROUTINE
+TC14,"Slight throat irritation",ROUTINE
+TC15,"Mild headache without warning signs",ROUTINE
+TC16,"General question about maintaining a healthy lifestyle",ROUTINE
+TC17,"I feel unwell",INSUFFICIENT_DATA
+TC18,"Something is wrong with my health",INSUFFICIENT_DATA
+TC19,"I have some symptoms but cannot describe them",INSUFFICIENT_DATA
+TC20,"I am not feeling normal",INSUFFICIENT_DATA

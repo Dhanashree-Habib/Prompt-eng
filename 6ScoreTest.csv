@@ -1,0 +1,16 @@
+Test_Case,Input,Expected_Output
+TC01,"score: 95, annual income: 200000",ELIGIBLE
+TC02,"score: 85, annual income: 300000",ELIGIBLE
+TC03,"score: 90, annual income: 150000",ELIGIBLE
+TC04,"score: 100, annual income: 50000",ELIGIBLE
+TC05,"score: 76, annual income: 100000",NOT_ELIGIBLE
+TC06,"score: 84, annual income: 200000",NOT_ELIGIBLE
+TC07,"score: 90, annual income: 350000",NOT_ELIGIBLE
+TC08,"score: 80, annual income: 400000",NOT_ELIGIBLE
+TC09,"score: 85, annual income: 300001",NOT_ELIGIBLE
+TC10,"score: 95, annual income missing",INSUFFICIENT_DATA
+TC11,"score missing, annual income: 200000",INSUFFICIENT_DATA
+TC12,"score: unknown, annual income: 150000",INSUFFICIENT_DATA
+TC13,"score: 90, annual income: unclear",INSUFFICIENT_DATA
+TC14,"score: 95",INSUFFICIENT_DATA
+TC15,"annual income: 100000",INSUFFICIENT_DATA
